@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(241, 232, 180);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    border-style: double;
+    border-width: 5px;
+    border-color: black;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.opener {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-style: solid;
+    border-color: maroon;
+    border-width: 5px;
+}
+
+h2, h3, .sub-header{
+    color: rgb(1, 126, 1);
+    font-size: 25px;
+    margin: 20px 0 0 10px;
+}
+
+.sub-header {
+    font-size: 20px;
+    color: rgb(0, 0, 148);
+}
+
+a {
+    color: rgb(88, 0, 88);
+}
+
+p {
+    color: black;
+}
+
+ul, ol {
+    align-items: left;
+    text-align: left;
+    list-style: georgian;
+    align-content: center;
+    color: rgb(0, 0, 148);
+}
+
+ol {
+    color: rgb(131, 122, 0);
+    list-style: decimal;
+    width: 60%
+}
+
+div p {
+    margin: 0 40px 0 40px;
+}
+
+body.fit-page {
+    height: 94vh;
+}
